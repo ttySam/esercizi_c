@@ -1,0 +1,55 @@
+Ecco 10 esercizi dove i puntatori sono strettamente necessari:
+
+---
+
+**1. Scambia due variabili**
+Scrivi una funzione `swap(int *a, int *b)` che scambi i valori di due variabili intere. Verificala scambiando due numeri nel main.
+
+---
+
+**2. Min e max di un array**
+Scrivi una funzione che riceva un array e restituisca tramite puntatori sia il valore minimo che il massimo in una sola chiamata.
+
+---
+
+**3. Dividi e resto**
+Scrivi una funzione `dividi(int a, int b, int *quoziente, int *resto)` che calcoli entrambi i risultati della divisione in una sola chiamata.
+
+---
+
+**4. Inverti un array**
+Scrivi una funzione che riceva un array e lo inverta **sul posto** (senza crearne uno nuovo e senza return).
+
+---
+
+**5. Separa pari e dispari**
+Scrivi una funzione che riceva un array e restituisca tramite puntatori quanti elementi sono pari e quanti sono dispari.
+
+---
+
+**6. Statistiche base**
+Scrivi una funzione che calcoli in una sola passata su un array: somma, media, minimo e massimo — tutti restituiti tramite puntatori.
+
+---
+
+**7. Rimuovi i duplicati**
+Scrivi una funzione che modifichi un array sul posto rimuovendo i duplicati, e restituisca tramite puntatore la nuova dimensione effettiva dell'array.
+
+---
+
+**8. Partiziona un array**
+Dato un valore pivot, scrivi una funzione che riordini un array sul posto mettendo tutti i valori minori del pivot a sinistra e i maggiori a destra. Restituisci tramite puntatore l'indice dove finiscono i minori.
+
+---
+
+**9. Parsing di una stringa**
+Scrivi una funzione che riceva una stringa tipo `"42 7"` e restituisca tramite puntatori i due numeri interi estratti.
+
+---
+
+**10. Lista collegata — inserisci in testa**
+Crea una struttura `Nodo` con un valore intero e un puntatore al nodo successivo. Scrivi una funzione che inserisca un nuovo nodo in testa alla lista, modificando il puntatore alla testa tramite un puntatore a puntatore (`Nodo **testa`).
+
+---
+
+> L'ultimo è il più difficile e richiede un **puntatore a puntatore** — se non li hai ancora visti puoi saltarlo e tornarci dopo. Gli altri 9 si risolvono tutti con quello che hai già studiato
