@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> // importo <stdlib.h< per usare la funzione 'sizeof()'
+#include <stdlib.h> // importo <stdlib.h> per usare la funzione 'sizeof()'
 
 // Scrivi una funzione che riceva un array e lo inverta **sul posto** (senza crearne uno nuovo e senza return).
 
