@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h> // importo <stdlib.h< per usare la funzione 'sizeof()'
 
 // Scrivi una funzione che riceva un array e lo inverta **sul posto** (senza crearne uno nuovo e senza return).
 
 
-// Creo una funziona che prende come parametri un array, la sua dimensione e non restituisce niente
+// Creo una funzione che prende come parametri un array, la sua dimensione e non restituisce niente
 void invertiArray(int lista[], int size){
     int i, j;   // inizializzo 2 variabili da usare come contatori
     int lista2[size]; // Creo una seconda lista della stessa grandezza di quella originale
